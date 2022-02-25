@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"><!--https://animate.style/-->
     <link rel="stylesheet" href="css/estilos.css">
-    <title>ACATOOL</title>
     <link rel="shortcut icon" href="imagenes/icono.ico"><!--Para poner el icono-->
+
+    
+    
+    <title>ACATOOL</title>
+    
 </head>
 
     <body>
@@ -37,12 +41,10 @@
 
     <div class="final ">
         <footer class="footer">
-
-            <h2>Derechos de autor © 2022 -> Centro Educativo Paulo Freire, Establecimiento Penitenciario De Alta Seguridad De Valledupar </h2>
-           
-            <!--<img class="logo" src="imagenes/Logo.png" alt="Logo Acatool">-->
-            
+            <h2>Derechos de autor © 2022 -> Centro Educativo Paulo Freire, Establecimiento Penitenciario De Alta Seguridad De Valledupar </h2>   
         </footer>
     </div>
 
 </html>
+
+
