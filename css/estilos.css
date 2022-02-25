@@ -1,0 +1,145 @@
+body{
+    margin: 0;  /*Tengo una imagen que lo explica, esta en imagenes*/
+    padding: 0; /*Tengo una imagen que lo explica, esta en imagenes*/
+    background-image: linear-gradient(rgba(5, 7, 12, 0.90), rgba(5, 7, 12, 0.90)), url(../imagenes/ACATOOL.png); /*background: url(../imagenes/ACATOOL.png) no-repeat center top; /*Es para que la imagen sea centrada y no se repita*/
+    background-size: 20%;
+    /*background-size: cover; /*Para que el tamaño se ajuste*/
+    font-family: Arial, Helvetica, sans-serif; /*Es el tipo de letra a utilizar */
+    height: 100vh;/*Es lo alto del dispotivo */
+    box-sizing: border-box;
+}
+
+
+body::-webkit-scrollbar{ /*Es para la barra del navegador   */
+    width: 0px;
+    background-color: black;
+}
+
+.inicio-sesion{
+    margin-top: 40px;
+    padding: 20px 40px 70px;
+    width: 500px;
+    height: 450px;
+    color:black;
+    top: 5%;
+    right: 30%;
+    left: 30%;
+    position: absolute;
+    transform: translate(50%, 70%);
+    border-radius: 5%;
+    background: rgba(255, 255, 255, 0.63);
+    
+}
+
+.inicio-sesion h1{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    
+}
+
+.inicio-sesion h2{
+    margin: 5px;
+    padding-left: 125px;
+    font-size: 50px;
+}
+
+.inicio-sesion p{
+    margin: 30px 0px 18px;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+.inicio-sesion label{
+    padding: 5px 0 18px;/*Arriba, derecha-izquierda y abajo*/
+    font-weight: bold; /*Para engrosar la letra*/
+    display:block; /*Que sea solo una linea*/
+    font-size: 20px;
+}
+
+.inicio-sesion input{
+    padding-top: 8px;
+    width: 100%; /*Para que cubra toda cobertura, en ese caso todo el div*/
+    height: 30px;
+    margin-bottom: 20px;/*Es el margen pero de abajo*/
+    border: none; /*que no tenga borde*/
+    border-bottom: 2px solid #000; /*El borde del boton pero en la parte de abajo y que sea de color negro, se puede escribir por el nombre o por #*/
+    background: transparent; /*Que el fondo sea de color transparente*/
+    outline: none; /*Que no tenga contorno*/
+    height: 25px; /*La altura*/
+    color:black; /*El color pero del texto que esta de transparente*/
+    font-size: 20px; /*El tamaño de la letra*/
+}
+
+.inicio-sesion input::placeholder{
+    color:black;
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+input[type="submit"]{
+    width: 70%; 
+    border: 4px solid black;
+    outline: none;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 80px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+input[type="submit"]:hover{/*Para hacer clic cambie de color*/
+    background: blue;
+    font-style: italic;
+    color: white;
+}
+
+.inicio-sesion a{
+    padding-left: 80px;
+    font-size: 30px;
+    color:#000;
+}
+
+.inicio-sesion a:hover{
+    font-style: italic;
+    color: blue;
+}
+
+
+.final{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.63);
+    transform: translate(0%, 800%);
+   
+}
+
+
+.final .footer{
+    padding-top: 5px;
+    
+}
+
+.final .footer h2{
+    padding: 5px 0px 0px 45px;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+
+
+
+
+/*.final .logo{
+    width: 60px;
+    height: 0px;
+    top: 10%;
+    transform: translate(0%, 0%);
+    right: 200px;
+    position: absolute;/*Es para que sea adelante bien melito
+}*/
