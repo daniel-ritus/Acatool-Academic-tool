@@ -1,0 +1,10 @@
+body{
+    margin: 0;  /*Tengo una imagen que lo explica, esta en imagenes*/
+    padding: 0; /*Tengo una imagen que lo explica, esta en imagenes*/
+    background-image: linear-gradient(rgba(5, 7, 12, 0.90), rgba(5, 7, 12, 0.90)), url(../imagenes/ACATOOL.png); /*background: url(../imagenes/ACATOOL.png) no-repeat center top; /*Es para que la imagen sea centrada y no se repita*/
+    background-size: 20%;
+    /*background-size: cover; /*Para que el tamaño se ajuste*/
+    font-family: Arial, Helvetica, sans-serif; /*Es el tipo de letra a utilizar */
+    height: 100vh;/*Es lo alto del dispotivo */
+    box-sizing: border-box;
+}
