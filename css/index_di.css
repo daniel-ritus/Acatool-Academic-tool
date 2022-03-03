@@ -106,13 +106,20 @@ section{
     border: 10px solid black;
 }
 
-.segundario .logo_usuario{
+/*
+ .logo_usuario{
     margin-right: 200px;
     width: 420px;
     height: 420px;
     position: absolute;
-}
+}*/
 
+.logo_usuario{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-right: 100px;
+}
 
 
 .info{

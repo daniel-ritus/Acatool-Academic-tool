@@ -1,0 +1,150 @@
+body{
+    margin: 0px;  /*Tengo una imagen que lo explica, esta en imagenes*/
+    padding: 0px; /*Tengo una imagen que lo explica, esta en imagenes*/
+    /*background-image: linear-gradient(rgba(5, 7, 12, 0.90), rgba(5, 7, 12, 0.90)), url(../imagenes/ACATOOL.png); background: url(../imagenes/ACATOOL.png) no-repeat center top; /*Es para que la imagen sea centrada y no se repita*/
+    font-family: Arial, Helvetica, sans-serif; /*Es el tipo de letra a utilizar */
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 255);
+    width: 100%;
+    height: 340px;
+    border-bottom: 20px;   
+}
+
+h1{
+    position: absolute;
+    font-size: 130px;
+    /*margin-left: 500px;*/
+    margin-left: 120px;
+    /*transform: translate(2%, 30%);*/    
+}
+
+.cerrar_sesion{
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+}
+
+.cerrar_sesion:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.logo_acatool{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(380%, 5%);
+    border-color:  black;
+    border: 150px;
+}
+
+
+h2{
+    position: absolute;
+    transform: translate(500%, 20%);
+    font-style: italic;
+}
+
+nav{
+    padding: 15px 0px 20px 5px ;
+    border: 5px solid black;
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+.navegador{
+    padding: 0px 189px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 30px;
+}
+section{
+    margin: 10px;
+    padding: 30px 20px 0px 20px;
+    font-size: 40px;
+}
+
+.titulo_persona{
+    height: 150px;
+    width: 98,1%;
+    border: 10px black;
+    background-color: rgb(34, 34, 255);
+    border-style: dashed solid;
+}
+
+.titulo_personal{
+    position: absolute;
+    margin: 30px;
+    padding: 0px 0px 20px 100px;
+    font-size: 90px;
+    color: white;
+    
+
+}
+
+.segundario{
+    padding: 0px;
+    margin: 0px;
+    width: 98,4%;
+    height: 480px;
+    background-color: rgb(0, 183, 255);
+    border: 10px solid black;
+    border-top-width: thin;
+}
+
+.parte_usuario{
+    width: 400px;
+    height: 400px;
+    margin: 30px 20px 0px 30px;
+    background-color: rgb(255, 255, 255);
+    position: absolute; 
+    border: 10px solid black;
+}
+
+/*
+ .logo_usuario{
+    margin-right: 200px;
+    width: 420px;
+    height: 420px;
+    position: absolute;
+}*/
+
+.logo_usuario{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-right: 100px;
+}
+
+
+.info{
+    padding: 0px 500px;
+}
+
+.final{
+    margin: 0px;
+    width: 99,4%;
+    height: 70px;
+    border-top: 20px solid black;
+    border-bottom-width: thin;
+    background-color: rgb(34, 34, 255);
+    border-color: black;
+    border-style: dashed solid;
+}
+
+
+
+.derechos_autor{
+    padding: 0px 0px 0px 40px;
+    font-size: 26px;
+    font-style: italic;
+    color: white;
+}
